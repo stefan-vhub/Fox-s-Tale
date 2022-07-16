@@ -9,20 +9,60 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D theRB;
     public float jumpForce;
 
+    public bool isGrounded;
+    public Transform groundCheckPoint;
+    public LayerMask whatIsGround;
+
+    private bool canDoubleJump;
+
+    private Animator anim;
+    private SpriteRenderer theSR;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        theSR = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
+
+        if(isGrounded)
+        {
+            canDoubleJump = true;
+        }
+
         if (Input.GetButtonDown("Jump"))
         {
-            theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
+            if(isGrounded)
+            {
+                theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
+            }
+            else
+            {
+                if(canDoubleJump)
+                {
+                    theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
+                    canDoubleJump = false;
+                }
+            }
         }
 
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), theRB.velocity.y);
+
+        if(theRB.velocity.x < 0)
+        {
+            theSR.flipX = true;
+        }
+        else if (theRB.velocity.x > 0)
+        {
+            theSR.flipX = false;
+        }
+
+        anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x));
+        anim.SetBool("isGrounded", isGrounded);
     }
 }
