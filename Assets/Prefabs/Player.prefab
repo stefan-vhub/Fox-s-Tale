@@ -108,7 +108,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 85514157
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1353519756, guid: d0ff653f4b4d3f14dab1926a9ed3efb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -141,6 +141,8 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  knockBackLength: 0.25
+  knockBackForce: 5
 --- !u!70 &658983402932771967
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -210,5 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fe306fb0ea3c54597849eb6d42fd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 6
   currentHealth: 0
+  invicibleLength: 1
+  deathEffect: {fileID: 6955521823239369144, guid: 560f384c95421f542b962ba75c79d9f4, type: 3}
