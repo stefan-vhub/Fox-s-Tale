@@ -22,7 +22,6 @@ public class KillPlayer : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             LevelManager.instance.RespawnPlayer();
-            AudioManager.instance.PlaySFX(8);
         }
     }
 }
