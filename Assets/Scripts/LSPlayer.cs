@@ -6,6 +6,8 @@ public class LSPlayer : MonoBehaviour
 {
     public MapPoint currentPoint;
     public float moveSpeed = 10f;
+    private bool levelLoading;
+    public LSManager theManager;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +20,7 @@ public class LSPlayer : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, currentPoint.transform.position, moveSpeed * Time.deltaTime);
 
-        if (Vector3.Distance(transform.position, currentPoint.transform.position) < .1f)
+        if (Vector3.Distance(transform.position, currentPoint.transform.position) < .1f && !levelLoading)
         {
             if (Input.GetAxisRaw("Horizontal") > .5f)
             {
@@ -49,10 +51,21 @@ public class LSPlayer : MonoBehaviour
                 }
             }
         }
+
+        if(currentPoint.isLevel && currentPoint.LevelToLoad != "" && !currentPoint.isLocked)
+        {
+            LSUIController.instance.ShowInfo(currentPoint);
+            if (Input.GetButtonDown("Jump"))
+            {
+                levelLoading = true;
+                theManager.LoadLevel();
+            }
+        }
     }
 
     public void SetNextPoint(MapPoint nextPoint)
     {
         currentPoint = nextPoint;
+        LSUIController.instance.HideInfo();
     }
 }

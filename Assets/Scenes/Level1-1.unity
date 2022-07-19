@@ -6420,6 +6420,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1531112180652174333, guid: 493269955a055aa409bb41d662d348e9, type: 3}
+      propertyPath: lavelToLoad
+      value: Level Select
+      objectReference: {fileID: 0}
     - target: {fileID: 4915877073232291837, guid: 493269955a055aa409bb41d662d348e9, type: 3}
       propertyPath: m_Name
       value: Level Pack
