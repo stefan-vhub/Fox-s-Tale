@@ -6,11 +6,23 @@ using UnityEngine.SceneManagement;
 public class LSManager : MonoBehaviour
 {
     public LSPlayer thePlayer;
+    private MapPoint[] allPoints;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        allPoints = FindObjectsOfType<MapPoint>();
+        if(PlayerPrefs.HasKey("CurrentLevel"))
+        {
+            foreach(MapPoint point in allPoints)
+            {
+                if(point.LevelToLoad == PlayerPrefs.GetString("CurrentLevel"))
+                {
+                    thePlayer.transform.position = point.transform.position;
+                    thePlayer.currentPoint = point;
+                }
+            }
+        }
     }
 
     // Update is called once per frame

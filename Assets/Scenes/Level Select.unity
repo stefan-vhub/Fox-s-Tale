@@ -489,6 +489,34 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: Map Point
@@ -2351,6 +2379,34 @@ PrefabInstance:
       propertyPath: left
       value: 
       objectReference: {fileID: 640065487}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: 'Map Point '
@@ -2488,6 +2544,10 @@ PrefabInstance:
     - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: levelName
       value: '2: High Jump'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: LevelToLoad
@@ -2779,6 +2839,34 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1434643558}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: 'Map Point '
@@ -2860,6 +2948,34 @@ PrefabInstance:
       propertyPath: left
       value: 
       objectReference: {fileID: 258246999}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: Map Point
@@ -2941,6 +3057,34 @@ PrefabInstance:
       propertyPath: left
       value: 
       objectReference: {fileID: 1434643558}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: 'Map Point '
@@ -3228,6 +3372,34 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 258246999}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: Map Point
@@ -16511,6 +16683,34 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1681106700}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: 'Map Point '
@@ -16592,6 +16792,34 @@ PrefabInstance:
       propertyPath: left
       value: 
       objectReference: {fileID: 1681106700}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: 'Map Point  '
@@ -16778,6 +17006,34 @@ PrefabInstance:
       propertyPath: left
       value: 
       objectReference: {fileID: 1339015023}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: Map Point
@@ -17040,6 +17296,34 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 640065487}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: 'Map Point '
@@ -17125,6 +17409,34 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1339015023}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: Map Point
@@ -17206,6 +17518,34 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 160935277}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: totalGems
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: targetTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: LevelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
       value: 'Map Point '
@@ -17640,44 +17980,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1686484643}
     - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: isLevel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: bestTime
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: isLocked
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: levelName
-      value: '1: The Beginning'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: totalGems
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: targetTime
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: LevelToLoad
-      value: Level1-1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: LovelToLoad
-      value: Level1-1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
-      propertyPath: levelToCheck
-      value: Level1-1
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2141194530, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: gemsCollected
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7280459456189331164, guid: 4cb1d8ca693e11040969e3ab2ffac957, type: 3}
       propertyPath: m_Name
