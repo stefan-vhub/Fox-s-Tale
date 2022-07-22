@@ -55,12 +55,13 @@ public class LevelManager : MonoBehaviour
 
     public IEnumerator EndLavelCo()
     {
+        AudioManager.instance.PlayLevelVictory();
         PlayerController.instance.stopInput = true;
         CameraController.instance.stopFollow = true;
         UIController.instance.levelCompleteText.SetActive(true);
         yield return new WaitForSeconds(1.5f);
         UIController.instance.FadeToBlack();
-        yield return new WaitForSeconds((1 / UIController.instance.fadeSpeed) + .25f);
+        yield return new WaitForSeconds((1 / UIController.instance.fadeSpeed) + 3f);
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1);
         PlayerPrefs.SetString("CurrentLevel", SceneManager.GetActiveScene().name);
 
